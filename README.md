@@ -1,4 +1,6 @@
 Assignment
+
+
 For this challenge, you will create a program to play Rock, Paper, Scissors. A program that picks at random will usually win 50% of the time. To pass this challenge your program must play matches against four different bots, winning at least 60% of the games in each match.
 
 In the file RPS.py you are provided with a function called player. The function takes an argument that is a string describing the last move of the opponent ("R", "P", or "S"). The function should return a string representing the next move for it to play ("R", "P", or "S").
@@ -10,6 +12,7 @@ The file RPS.py shows an example function that you will need to update. The exam
 Hint: To defeat all four opponents, your program may need to have multiple strategies that change depending on the plays of the opponent.
 
 Development
+
 Do not modify RPS_game.py. Write all your code in RPS.py. For development, you can use main.py to test your code.
 
 main.py imports the game function and bots from RPS_game.py.
@@ -26,7 +29,9 @@ play(player, quincy, 1000, verbose=True)
 Click the "run" button and main.py will run.
 
 Testing
+
 The unit tests for this project are in test_module.py. We imported the tests from test_module.py to main.py for your convenience. If you uncomment the last line in main.py, the tests will run automatically whenever you hit the "run" button.
 
 Submitting
+
 Copy your project's URL and submit it to freeCodeCamp.
